@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Row(
           children: [
             Image.asset("assets/logo.jpg", width: 35,),
@@ -30,7 +31,9 @@ class HomeScreen extends StatelessWidget {
 //   DeviceOrientation.landscapeLeft,
 //   DeviceOrientation.landscapeRight,
 // ]);
-Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FullScreen(videoLink: "https://calvary.livebox.co.in/nireekshanahls/nireekshanatv.m3u8")));
+Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FullScreen(videoLink: "https://calvary.livebox.co.in/nireekshanahls/nireekshanatv.m3u8"))).then((value){
+  
+});
             },
             child: CircleAvatar(
               radius: 20,

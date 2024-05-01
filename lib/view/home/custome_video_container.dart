@@ -63,7 +63,7 @@ class _CustomVideoContainerState extends State<CustomVideoContainer> {
           Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FullScreen(videoLink: widget.videoLink)));
         },
         child: Icon(
-                        Icons.screen_rotation,
+                        Icons.fullscreen,
                         color: Colors.white,
                         size: 30,
                       ),
@@ -77,7 +77,9 @@ class _CustomVideoContainerState extends State<CustomVideoContainer> {
   const SizedBox(height: 15,),
   Text(
     "NIREEKSHANA TV is India's Leading Christian Satellite Channel that presents faith based content 24/7 in the languages of Telugu. The objective of Nireekshana TV is to reach out to the unreached. We strive to telecast content relevant to Christian Faith and serve as a global window of faith to the vast majority of Telugu Christians around the world. To Book your SLOT, please call +91 8008650033",
+    textAlign: TextAlign.justify,
     style: TextStyle(
+      
       color: Colors.black,
       fontWeight: FontWeight.w500
     ),

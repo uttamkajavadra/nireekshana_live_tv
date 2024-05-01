@@ -48,9 +48,14 @@ class _FullScreenState extends State<FullScreen> {
             ),
             InkWell(
               onTap: (){
-                Navigator.of(context).pushAndRemoveUntil(
-                  MaterialPageRoute(builder: (c) => HomeScreen()),
-                  (route) => false);
+                // Navigator.pop(context, true);
+          //       SystemChrome.setPreferredOrientations([
+          //   DeviceOrientation.portraitUp,
+          // ]);
+                // Navigator.of(context).pushAndRemoveUntil(
+                //   MaterialPageRoute(builder: (c) => HomeScreen()),
+                //   (route) => false);
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
               },
               child: Padding(
                 padding: const EdgeInsets.all(12.0),

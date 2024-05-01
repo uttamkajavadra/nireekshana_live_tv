@@ -34,7 +34,11 @@
             android:value="2" />
     </application>
     <!-- Required to query activities that can process text, see:
+<<<<<<< HEAD
          https://developer.android.com/training/package="com.christianappdevelopers.nireekshanalivetv2">
+=======
+         https://developer.android.com/training/package-visibility?hl=en and
+>>>>>>> db685f19be8bea7316b3ef5f21580f20a0579d4d
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->

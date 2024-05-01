@@ -3,8 +3,13 @@
     "short_name": "nireekshina",
     "start_url": ".",
     "display": "standalone",
+<<<<<<< HEAD
     "background_color": "#hexcode",
     "theme_color": "#hexcode",
+=======
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+>>>>>>> db685f19be8bea7316b3ef5f21580f20a0579d4d
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
@@ -32,4 +37,8 @@
             "purpose": "maskable"
         }
     ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> db685f19be8bea7316b3ef5f21580f20a0579d4d
